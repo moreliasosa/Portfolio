@@ -1,0 +1,200 @@
+
+<!DOCTYPE html>
+ <!--Soil smample form page -->
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+ <title>Soil Submission Form</title>
+
+</head>
+<body>
+<div style="background-color: #f1f1f1;  padding: 20px; font-family: Arial, Helvetica, sans-serif" class="header">
+  <p style="text-align: center;">Already a member? <a href="login.php">Sign in</a></p>
+  <h1 style="text-align: center;">Soil Sample Submission Form</h1>
+  <h3 style="text-align: center;"> Required Materials:</h3>
+  <p style="text-align: center;"> - Phone (or compass)
+  <br> - Mason Jar with lid
+  <br> - Metal spoon (or stick)
+  <br> - Lables (or tape) 
+  <br> - Sharpie for labeling the sample
+  <br> - Paper to mark location</p>
+
+  <h3 style="text-align: center;"> Optional Materials:</h3>
+  <p style="text-align: center;"> - Gloves
+  <br> - Trash Bags 
+  <br> - Bug Spray
+  <br> - Sunblock</p>
+
+    <!--Possibility to ad a video in later -->
+    <h2 style="text-align: center;"> How to collect Soil Sample Video </h2>
+    <p style="text-align: center;">
+<video width="320" height="240" controls>
+  <source src="movie.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+</video>
+</p>
+  <h2 style="text-align: center;"> How to Collect Soil Sample</h2>
+
+  <p style="text-align: center;">
+    Duration:<br>
+    Sample Collection: 10-15 minutes<br>
+    Clean Up: 5-10 minutes <br><br>
+    Sample collections will be done by using a stick or metal spoon to dig out some soil, wanting the hole to be about 6 inches deep (or about the length of a sharpie or pen) into the soil. <br> After the hole is made collect the soil from the bottom of the hole and place into into the glass jar, then label the jar with the sample location.
+  </p>
+  <p style="text-align: center;">Multipule samples will be labeled <br> ex: A1, A2 ...</p>
+
+  <h3 style="text-align: center;"> Sample Clean-Up</h3>
+  <p style="text-align: center;">Once finished make sure to pick up any trash that you may have brought with you and take anything you brought with you back. <br> This is where the gloves and trash bag would come in if you wanted to collect the trash that is in the location you are collecting your soil sample from.</p>
+</div>
+<div class="container">
+  <form action="submit.php" method="post">
+  <form action="submit.php" method="get">
+   
+  <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post" required> 
+    <!--First Name -->
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">First Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="firstname" required placeholder="Your first name..">
+      </div>
+    </div>
+
+    <!--Last Name -->
+    <div class="row">
+      <div class="col-25">
+        <label for="lname">Last Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="lname" name="lastname" required placeholder="Your last name..">
+      </div>
+    </div>
+
+    <!--Email -->
+     <div class="row">
+      <div class="col-25">
+        <label for="email">Email</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="email" name="email" required placeholder="Your email..">
+      </div>
+</div>
+<!-- Coordinates -->
+<div class="row">
+      <div class="col-25">
+        <label for="cord">Coordinates <br>Ex: 225 W 33 13 27 N 97 7 43 Denton TX 660 ft elevation</label>
+      </div>
+      <div class="col-75">
+         <input type="text" id="cord" name="cord" placeholder="NO ' apostrophes '">
+      </div>
+    </div>
+
+   <!--Zipcode -->
+<div class="row">
+      <div class="col-25">
+        <label for="Zipcode">Zipcode</label>
+      </div>
+      <div class="col-75">
+        <input list="location" id="Zipcode" name="Zipcode" required placeholder="Zipcode">
+        <datalist id="location">
+
+          <option value="No">No</option>
+          <option value="75067">75067</option>
+          <option value="75068">75068</option>
+          <option value="75056">75056</option>
+          <option value="75007">75007</option>
+          <option value="75287">75287</option>
+          <option value="75033">75033</option>
+          <option value="75034">75034</option>
+          <option value="75028">75028</option>
+          <option value="75078">75078</option>
+          <option value="76227">76227</option>
+          <option value="76210">76210</option>
+          <option value="76262">76262</option>
+          <option value="76226">76226</option>
+          <option value="75077">75077</option>
+          <option value="76092">76092</option>
+          <option value="75010">75010</option>
+          <option value="75036">75036</option>
+          <option value="76208">76208</option>
+          <option value="75022">75022</option>
+          <option value="76201">76201</option>
+          <option value="76052">76052</option>
+          <option value="76177">76177</option>
+          <option value="76205">76205</option>
+          <option value="76266">76266</option>
+          <option value="76247">76247</option>
+          <option value="75057">75057</option>
+          <option value="76207">76207</option>
+          <option value="75065">75065</option>
+          <option value="76249">76249</option>
+          <option value="76258">76258</option>
+          <option value="76272">76272</option>
+          <option value="75008">75008</option>
+          <option value="76259">76259</option>
+          <option value="76299">76299</option>
+          <option value="75027">75027</option>
+          <option value="75029">75029</option>
+          <option value="76202">76202</option>
+          <option value="76204">76204</option>
+          <option value="76203">76203</option>
+          <option value="76206">76206</option>
+        </datalist>
+      </div>
+    </div>
+
+   <!--Type of Home -->
+     
+    <div class="row">
+      <div class="col-25">
+        <label for="property">Location you collected the sample </label>
+      </div>
+      <div class="col-75">
+        <select type="text" id="property" required name="property">
+          <option value="" disabled selected>...</option>
+          <option value="Single-Family">Single-Family Home</option>
+          <option value="Townhome">Townhome</option>
+          <option value="Condo">Condo</option>
+          <option value="Apartment">Apartment</option>
+          <option value="Other">Other</option>
+        </select>
+      </div>
+    </div>
+
+<!--Explanation of sample -->
+    <div class="row">
+      <div class="col-25">
+        <label for="obstruction">Sample Obstuction Explanation Ex: Grass, Childs toy, esc</label>
+      </div>
+      <div class="col-75">
+        <textarea id="obstruction" name="obstruction" required placeholder="Please explain what may have obstucted your sample.." style="height:100px"></textarea>
+      </div>
+    </div>
+
+<!--Explanation of history of soil -->
+    <div class="row">
+      <div class="col-25">
+        <label for="history">Sample History Explanation</label>
+      </div>
+      <div class="col-75">
+        <textarea id="history" name="history" required placeholder="Details of the place your soil is from..." style="height:100px"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <button style= 
+      "background-color: #04AA6D;
+       color: white;
+       padding: 12px 20px;
+       border: none;
+       border-radius: 4px;
+       cursor: pointer;
+       float: right;" class="button">Submit</button>
+    </div>
+  </form>
+</form>
+</div>
+
+</body>
+</html>
