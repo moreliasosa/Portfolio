@@ -3,6 +3,8 @@
 ## About
 
 Hi, I'm Morelia! I have a office background and hold a Bachelor of Science (B.S.) degree in Infrormatics from Texas Woman's University, with a minor in Data Science. I have recently held a role as an Office Manger at The Woman's Club of Fort Worth. 
+
+[`Resume`](https://github.com/moreliasosa/Portfolio/blob/fe63f12c89c60a44a471bd77264fd23de6475176/Capstone_Report_MoreliaSosa%20(1).docx)
 <br>
 This repository serves to showcase my skills and as a platform to share my projects, and a way to track my progress in Data Analytics and Data Science-related topics.  
 <br>
