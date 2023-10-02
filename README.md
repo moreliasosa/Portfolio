@@ -11,7 +11,7 @@ This repository serves to showcase my skills and as a platform to share my proje
 ## Table of contents
 - [About](#about)
 - [Portfolio Projects](#portfolio-projects)
-	+ [Civil Scientist Soil Submission Database](#Civil-Scientist-Soil-Submission-Database)
+	+ [Civil Scientist Soil Submission Database](#Civil Scientist Soil Submission Database)
 - [References](#ref)
 - [Contacts](#contacts)
 
