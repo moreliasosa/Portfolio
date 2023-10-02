@@ -26,5 +26,5 @@ In this section I will list data analytics projects briefly describing the techn
 **Results:** Review of the microplastics in the Denton County area submitted by civil scientist.  
 
 ## Contacts
-- LinkedIn: [@moreliasosa]([https://www.linkedin.com/in/nktnlx](https://www.linkedin.com/in/morelia-sosa-56443a1a3/)https://www.linkedin.com/in/morelia-sosa-56443a1a3/)
+- LinkedIn: [@moreliasosa]([https://www.linkedin.com/in/morelia-sosa-56443a1a3/])
 - E-mail: msosa6@twu.edu
