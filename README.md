@@ -11,7 +11,7 @@ This repository serves to showcase my skills and as a platform to share my proje
 ## Table of contents
 - [About](#about)
 - [Portfolio Projects](#portfolio-projects)
-	+ [Video Games Sales Analysis](#video-games-sales-analysis)
+	+ [Civil Scientist Soil Submission Database](#video-games-sales-analysis)
 - [References](#ref)
 - [Contacts](#contacts)
 
