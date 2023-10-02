@@ -19,7 +19,7 @@ In this section I will list data analytics projects briefly describing the techn
 
 ## Civil Scientist Soil Submission Database
 **Code:** [`Capstone`](https://github.com/moreliasosa/Portfolio/tree/90641e34c826313a74c8ff7148b8785a0212a7e3/capstone)
-**Presentation:** [`Report.pdf`](https://github.com/nktnlx/side_projects/blob/master/4_career_factory/slides.pdf)
+**Presentation:** [`Report.pdf`](https://github.com/moreliasosa/Portfolio/blob/fe63f12c89c60a44a471bd77264fd23de6475176/Capstone_Report_MoreliaSosa%20(1).docx)
 **Description:** The prototype databse to collect and anaylyze soils sample submitted by civil scientist. There is a list of soil submissions (by ID number), last name of civil scientist, zipcode, property type, obstruction, color, shape, size, pH levels, % mineral content, nitrogen, phosphorus, and potassium levels. The project includes the following steps: data loading, data cleaning and preprocessing, filling missing values, analyzing data.  
 **Skills:** data cleaning, data analysis, data visualization.  
 **Technology:** PHP, CSS, MySQL, JavaScript, Apache.  
